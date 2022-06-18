@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        width: 200px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        position: absolute;
+        box-shadow: 0 0 25px rgba(0,0,0,0.04);
+        transition: 0,3s;
+    }
+
+    #card-1{
+        background-image: url('/img/Playing\ card\ 1.png');
+        transition: 0.4s;
+        z-index: 5;
+    }
+
+    #card-2{
+        background-image: url('/img/Playing\ card\ 3.png');
+        transition: 0.4s;
+        z-index: 4;
+    }
+
+    #card-3{
+        background-image: url('/img/Playing\ card\ 4.png');
+        transition: 0.4s;
+        z-index: 3;
+    }
+
+    #card-4{
+        background-image: url('/img/Playing\ card\ 2.png');
+        transition: 0.4s;
+        z-index: 2;
+    }
+}
+
+.cards:hover{
+    .card{
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    #card-1{
+        transform: translate(70px, 0px) rotate(20deg);
+    }
+
+    #card-2{
+        transform: translate(22px, -18px) rotate(5deg);
+    }
+
+    #card-3{
+        transform: translate(-32px, -25px) rotate(-12deg);
+    }
+
+    #card-4{
+        transform: translate(-80px, -15px) rotate(-25deg);
+    }
+}
