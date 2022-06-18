@@ -28,22 +28,22 @@ body {
   transition: 0, 3s;
 }
 .cards #card-1 {
-  background-image: url("/img/Playing card 1.png");
+  background-image: url("img/Playing card 1.png");
   transition: 0.4s;
   z-index: 5;
 }
 .cards #card-2 {
-  background-image: url("/img/Playing card 3.png");
+  background-image: url("img/Playing card 3.png");
   transition: 0.4s;
   z-index: 4;
 }
 .cards #card-3 {
-  background-image: url("/img/Playing card 4.png");
+  background-image: url("img/Playing card 4.png");
   transition: 0.4s;
   z-index: 3;
 }
 .cards #card-4 {
-  background-image: url("/img/Playing card 2.png");
+  background-image: url("img/Playing card 2.png");
   transition: 0.4s;
   z-index: 2;
 }
